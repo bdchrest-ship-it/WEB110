@@ -1,0 +1,69 @@
+<!--Braden Chrest. 4/17/2026-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form submit</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="logo">
+            <h2>Form Submit</h2>
+            <p>We'd love to hear from you! Please fill out the form below.</p>
+        </header>
+        <main>
+        <form method="post" action="Use the link we used in class here">
+
+        <div class="form-group">
+        <label for="First Name">First Name</label>
+        <input type="text" id="First Name" name="First Name" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name" name="Last Name" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+        <label for="Email Insert">Insert Email</label>
+        <input type="text" name="Email Input" id="Email Input" required>
+        </div>
+
+        <div class="form-group">
+        <label for="Phone Input">Phone Number</label>
+        <input type="tel" id="Phone" name="Phone" placeholder="123-456-7890">
+           <!--Create a label and phone input element here and make it required and have this as a placeholder-- placeholder="123-456-7890" -->
+        </div>
+
+        <div class="form-group">
+            <label for="learnMore">What would you like to know more about?</label>
+            <textarea id="learnMore" name="learnMore" maxlength="500"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>How would you prefer we contact you?</label>
+            <div class="contact-options">
+                <input type="radio" id="contactEmail" name="contactPreference" value="email" required>
+                <label for="contactEmail">Email</label>
+                <input type="radio" id="contactPhone" name="contactPreference" value="phone">
+                <label for="contactPhone">Phone</label>
+                <input type="radio" id="noPreference" name="contactPreference" value="no_preference">
+                <label for="noPreference">No Preference</label>
+            </div>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+        </form>
+
+        </main>
+        <footer>
+         <p>&copy; Braden Chrest . All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
