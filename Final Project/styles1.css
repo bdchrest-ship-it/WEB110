@@ -1,0 +1,105 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    background-color: darkgray;
+    padding: 1.5em 1.5em;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    border: 5px solid black;
+    border-radius: 1em;
+}
+
+header img{
+    border: none;
+    margin: 1em;
+
+}
+
+nav{
+    background-color: darkgray;
+    border: 4px solid black;
+    border-radius: .5em;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: auto;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav li a{
+    padding: 1rem;
+    display: block;
+}
+
+nav a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+main{
+    min-height: 100vh;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+main li{
+    padding: .5rem;
+    margin: 0 auto;
+    display: block;
+}
+
+img{
+    width: 98%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.grid{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.25em;
+}
+
+.grid-child{
+    border: 5px solid black;
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgray;
+    border: 4px solid black;
+}
